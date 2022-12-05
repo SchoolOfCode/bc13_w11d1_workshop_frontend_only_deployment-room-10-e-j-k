@@ -3,8 +3,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <p>{process.env.HELLO}</p>
-      <yes></yes>
+      <p>{process.env.REACT_APP_HELLO}</p>
     </div>
   );
 }
